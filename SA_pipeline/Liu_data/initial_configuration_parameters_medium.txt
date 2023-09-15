@@ -1,0 +1,7 @@
+20	52	15	61	200		1 	1	0.03700000	0.339000000		0.00000000	 0.19139162	0.23523812		0 		0 		0.60000
+
+
+
+
+
+#>>init_EG >> init_CBH >> init_BGL >> init_XYL >> length_fibril >> boolean_Xyl_or_MLG >> pct_xyl >> pct_hemi >> pct_lign >> pct_acetyl_hemi >> pct_crystalline_cellu >> pct_crystalline_hemi >> Mean_defect_size >> Nbr_of_defects >>r_monomer

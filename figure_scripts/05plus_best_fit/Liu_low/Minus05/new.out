@@ -1,0 +1,331 @@
+./code_4
+low
+Nruns = 10
+Simu and seed number 1
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175454189
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.4555e-05
+Step: 2000; glc released: 36; xyl released: 0; cellobiose in system: 4; real_time: 0.100067
+Step: 3000; glc released: 761; xyl released: 0; cellobiose in system: 2; real_time: 1.72023
+Step: 4000; glc released: 1467; xyl released: 0; cellobiose in system: 2; real_time: 3.81634
+Step: 5000; glc released: 2127; xyl released: 0; cellobiose in system: 0; real_time: 6.43297
+Step: 6000; glc released: 2587; xyl released: 0; cellobiose in system: 1; real_time: 49.6904
+==========================================
+Simulation time ended; glucose released: 2853; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 2
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175460801
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 8.87839e-05
+Step: 2000; glc released: 33; xyl released: 0; cellobiose in system: 4; real_time: 0.0791099
+Step: 3000; glc released: 704; xyl released: 0; cellobiose in system: 2; real_time: 1.61955
+Step: 4000; glc released: 1374; xyl released: 0; cellobiose in system: 4; real_time: 3.41562
+Step: 5000; glc released: 2070; xyl released: 0; cellobiose in system: 1; real_time: 5.35433
+Step: 6000; glc released: 2527; xyl released: 0; cellobiose in system: 2; real_time: 27.4731
+Step: 7000; glc released: 2848; xyl released: 0; cellobiose in system: 3; real_time: 87.7902
+==========================================
+Simulation time ended; glucose released: 2911; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 3
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175462489
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.52767e-05
+Step: 2000; glc released: 38; xyl released: 0; cellobiose in system: 1; real_time: 0.0743553
+Step: 3000; glc released: 745; xyl released: 0; cellobiose in system: 3; real_time: 1.82411
+Step: 4000; glc released: 1451; xyl released: 0; cellobiose in system: 1; real_time: 4.18232
+Step: 5000; glc released: 2143; xyl released: 0; cellobiose in system: 1; real_time: 6.6742
+Step: 6000; glc released: 2600; xyl released: 0; cellobiose in system: 3; real_time: 58.0398
+==========================================
+Simulation time ended; glucose released: 2810; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 4
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175466036
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 5.57839e-05
+Step: 2000; glc released: 25; xyl released: 0; cellobiose in system: 3; real_time: 0.083147
+Step: 3000; glc released: 727; xyl released: 0; cellobiose in system: 2; real_time: 1.99496
+Step: 4000; glc released: 1443; xyl released: 0; cellobiose in system: 0; real_time: 4.25303
+Step: 5000; glc released: 2151; xyl released: 0; cellobiose in system: 0; real_time: 7.2398
+Step: 6000; glc released: 2634; xyl released: 0; cellobiose in system: 1; real_time: 75.7772
+==========================================
+Simulation time ended; glucose released: 2734; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 5
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175470406
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 7.83282e-05
+Step: 2000; glc released: 41; xyl released: 0; cellobiose in system: 7; real_time: 0.0846943
+Step: 3000; glc released: 690; xyl released: 0; cellobiose in system: 2; real_time: 1.61668
+Step: 4000; glc released: 1391; xyl released: 0; cellobiose in system: 2; real_time: 3.35027
+Step: 5000; glc released: 2035; xyl released: 0; cellobiose in system: 2; real_time: 5.47063
+Step: 6000; glc released: 2520; xyl released: 0; cellobiose in system: 2; real_time: 28.9699
+Step: 7000; glc released: 2855; xyl released: 0; cellobiose in system: 2; real_time: 80.2123
+==========================================
+Simulation time ended; glucose released: 2944; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 6
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175476148
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.82412e-05
+Step: 2000; glc released: 25; xyl released: 0; cellobiose in system: 8; real_time: 0.0774036
+Step: 3000; glc released: 703; xyl released: 0; cellobiose in system: 3; real_time: 1.42327
+Step: 4000; glc released: 1373; xyl released: 0; cellobiose in system: 4; real_time: 3.16579
+Step: 5000; glc released: 2028; xyl released: 0; cellobiose in system: 1; real_time: 5.0019
+Step: 6000; glc released: 2514; xyl released: 0; cellobiose in system: 2; real_time: 26.7812
+Step: 7000; glc released: 2832; xyl released: 0; cellobiose in system: 1; real_time: 82.7246
+==========================================
+Simulation time ended; glucose released: 2960; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 7
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175480778
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.95685e-05
+Step: 2000; glc released: 26; xyl released: 0; cellobiose in system: 6; real_time: 0.0979529
+Step: 3000; glc released: 699; xyl released: 0; cellobiose in system: 3; real_time: 1.62236
+Step: 4000; glc released: 1383; xyl released: 0; cellobiose in system: 1; real_time: 3.31532
+Step: 5000; glc released: 2059; xyl released: 0; cellobiose in system: 2; real_time: 5.16956
+Step: 6000; glc released: 2531; xyl released: 0; cellobiose in system: 2; real_time: 26.65
+Step: 7000; glc released: 2844; xyl released: 0; cellobiose in system: 1; real_time: 67.6073
+==========================================
+Simulation time ended; glucose released: 3065; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 8
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175485940
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.01161e-05
+Step: 2000; glc released: 33; xyl released: 0; cellobiose in system: 6; real_time: 0.0866874
+Step: 3000; glc released: 649; xyl released: 0; cellobiose in system: 5; real_time: 1.54203
+Step: 4000; glc released: 1351; xyl released: 0; cellobiose in system: 5; real_time: 2.98466
+Step: 5000; glc released: 2028; xyl released: 0; cellobiose in system: 0; real_time: 4.63877
+Step: 6000; glc released: 2477; xyl released: 0; cellobiose in system: 1; real_time: 25.1724
+Step: 7000; glc released: 2782; xyl released: 0; cellobiose in system: 1; real_time: 64.073
+==========================================
+Simulation time ended; glucose released: 3053; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 9
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175492124
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 6.74415e-05
+Step: 2000; glc released: 37; xyl released: 0; cellobiose in system: 3; real_time: 0.111532
+Step: 3000; glc released: 708; xyl released: 0; cellobiose in system: 3; real_time: 1.85262
+Step: 4000; glc released: 1414; xyl released: 0; cellobiose in system: 2; real_time: 3.68459
+Step: 5000; glc released: 2109; xyl released: 0; cellobiose in system: 2; real_time: 5.68312
+Step: 6000; glc released: 2561; xyl released: 0; cellobiose in system: 1; real_time: 38.2886
+Step: 7000; glc released: 2896; xyl released: 0; cellobiose in system: 1; real_time: 97.0805
+==========================================
+Simulation time ended; glucose released: 2922; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Simu and seed number 10
+====================================
+Seed of random number generator is NOT fixed
+Seed:  169175494999
+====================================
+Building hemi and lignin polymers
+====================================
+Adjusting hemi and lign...
+====================================
+Done adjusting hemi and lign
+====================================
+Filling neighbor vectors
+====================================
+Done filling neighbor vectors
+
+ 
+ AVANT GILLESPIE LOOP 
+ 
+
+Step: 1000; glc released: 0; xyl released: 0; cellobiose in system: 0; real_time: 7.97721e-05
+Step: 2000; glc released: 33; xyl released: 0; cellobiose in system: 4; real_time: 0.0634014
+Step: 3000; glc released: 756; xyl released: 0; cellobiose in system: 1; real_time: 2.2357
+Step: 4000; glc released: 1486; xyl released: 0; cellobiose in system: 3; real_time: 4.74589
+Step: 5000; glc released: 2204; xyl released: 0; cellobiose in system: 0; real_time: 7.45906
+Step: 6000; glc released: 2677; xyl released: 0; cellobiose in system: 2; real_time: 72.344
+==========================================
+Simulation time ended; glucose released: 2854; xylose released: 0
+====================================
+Returned from run()
+
+
+====================================
+Mean glc produced: 2910.6
+END OF main()!!!
