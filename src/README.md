@@ -85,56 +85,96 @@ You can skip the compiling step, if you are using 64-bit linux and already have 
 ### simulation_parameters:
 
 1.) and 2.) sum up to yield the maximum number of steps (there are two parameters for this in case of possible future added effects). Example: the first parameter is set to 10000, the second is set to 5000. Then, no more than 15000 Gillespie algorithm steps can be performed [These parameters are used in the code_4.cpp to set the maximum sumber of Gillespie steps (current value: 200000 + 200000 = 400000) but are not varied and can be fixed in the interface.]
+
 3.) Maximal number of snapshots which may be taken for the purpose of creating animation data. [This is used in the code to limit the maxmimum number of snapshots. This can be fixed in the interface too.]
+
 4.) Maximal value for the real time within the simulation, as calculated by the Gillespie algorithm. [This is the maximum real time for the simulation to run, calculated by Gillespie algorithm. If this is set to a high value, the simulation runs until all digestible substrate has been digested. Else it can be set to lower value by the user to match the duration of the experimental saccharification time-course data available.]
+
 5.) Number of steps between system snapshots, if "-vid" command is used (see below). If this is set to 1, a snapshot is taken at every step of the Gillespie algorithm.
+
 6.) Maximum number of hemicellulose/lignin layers around the cellulose core. Currently cannot be set above 4. (This can be fixed to 4 in the interface. The user doesn't need to change it in the majority of the scenario.)
+
 7.) mode_code: Determines the shape of the microfibril. To use the 36 chain microfibril used by Ding et al., set this to 5 (Spruce wood, 24 polymers, mode_code = 1 or 2; Mung beans, 18 polymers, mode_code = 3 or 4; Maize, 36 polymers, mode_code = 5). [To take value according to plant sample species]
+
 8.) mode_hemi: Determines, on which sides of the microfibril hemicellulose can anchor. Currently to be kept at 2. [User doesn't need to vary it. Can be fixed at 2 in the interface.]
+
 9.) mode_lign: Determines, on which sides of the microfibril lignin can anchor. Currently to be kept at 2. [User doesn't need to vary it. Can be fixed at 2 in the interface.]
+
 10.) mode_inhib: Determines, whether inhibition is active (1) or inactive (-1). [For user, value 1 is reccommended as end-product inhibition is real.]
+
 11.) mode_lignin_glue: Determines, whether the lignin gluing effect is active (1) or inactive (-1). [For user, value 1 is recommended, as Lignin gluing is a known phenomena.]
+
 12.) mode_enzyme_size : Determines, whether the enzyme size is included for all enzymes (1) or only for CBH (-1). [This can be fixed to 1 in the interface for now.]
+
 13.) Nruns: Determines the number of simulation runs. [10 runs are good enough for getting a smooth average saccharification curve.]
-14.) enzyme_radius: Denotes the radius of the enzyme in bonds
+
 14.) mu_lignin_covering: Determines the average fraction of lignin polymers which acts as a structural barrier. Set this to a value between 0 and 1. [Fix at 0.5]
+
 15.) sigma_lignin_covering : Determines the standard deviation around mu_lignin_covering. Set this to a value between 0 and 1. [Fix at 0.2]
 
 
 ### kinetic_parameters:
 
 1.) EG rate of reaction [number of reactions per hour]
+
 2.) CBH rate of reaction [number of reactions per hour]
+
 3.) BGL rate of reaction [number of reactions per hour]
+
 4.) XYL rate of reaction [number of reactions per hour]
-8.) Lignin_adhesion_rate [number of monolignols needed to bind an enzyme. Range: 150-350]
+
+5.) Lignin_adhesion_rate [number of monolignols needed to bind an enzyme. Range: 150-350]
+
 6.) CBH rate of attachment [number of attachments per hour]
+
 7.) inhibition binding affinity of cellobiose to EG [dimensionless number. Range: 0-1]
+
 8.) inhibition inding affinity of cellobiose to CBH [dimensionless number. Range: 0-1]
+
 9.) inhibition binding affinity of glucose to EG [dimensionless number. Range: 0-1]
+
 10.) inhibition inding affinity of glucose to CBH [dimensionless number. Range: 0-1]
+
 11.) inhibition inding affinity of glucose to BGL [dimensionless number. Range: 0-1]
+
 12.) digestibility ratio of "crystalline" and "amorphous" cellulose [dimensionless number. Range: 0.00001-0.1]
+
 13.) digestibility ratio of "crystalline" and "amorphous" hemicellulose [dimensionless number. Range: 0.00001-0.1]
+
 14.) Enzyme size: radius [Units: nm. Can be fixed at 2.5 nm]
 
-###initial_configuration_parameters:
+### initial_configuration_parameters:
 
 1.) init_EG: initial unmber of EG enzymes [default value: 20]
+
 2.) init_CBH: initial unmber of CBH enzymes [default value: 52]
+
 3.) init_BGL: initial unmber of BGL enzymes [default value: 15]
+
 4.) init_XYL: initial unmber of XYL enzymes [default value: 61]
+
 5.) length_fibril [Fix at 200. Can be increased to higher values to simulate longer microfibril at the expense of increased simulation time.]
+
 6.) boolean_Xyl_or_MLG [Fix it to 1. If set to 1, there is Xylans in Hemicellulose (xylose released). If set to 0, there is Mixed-Linkage Glucans (glucose released)]
+
 7.) pct_xyl: Percentage of xylose in hemicellulose; currently restricted to a value of 1. [Should be fixed at 1 for now. But can be useful later when other hemicellulose sugars are implemented simultaneously.]
+
 8.) pct_hemi: Percentage of hemicellulose within the microfibril. [Comes from composition data. User should input. Range 0-1.]
+
 9.) pct_lign: Percentage of lignin within the microfibril. [Comes from composition data. User should input. Range 0-1.]
+
 10.) pct_acetyl_hemi: Percentage of acetylated hemicellulose within the hemicellulose fraction; currently restricted to a value of 0. [Fix it at 0 for now. Allows an extra option if acetylation of hemicellulose is considered and modified later.]
+
 11.) pct_crystalline_cellu: Percentage of "crystalline" cellulose. [Fitting parameter. Can also come from user data, if available. Range 0-1.]
+
 12.) pct_crystalline_hemi: Percentage of "crystalline" hemicellulose. [Fitting parameter. Can also come from user data, if available. Range 0-1.]
+
 13.) Mean_defect_size: Mean size of defect/damaged section of Crystalline cellulose. [Implemented for all mode_codes. Takes value 0-0.5. It signfies the fraction of amorphous cellulose (out of len_poly) contained in the defects.]
+
 14.) Nbr_of_defects: Number of defects/damaged sections of Crystalline cellulose. [Implemented for all mode_codes. Takes value 0-1. It signfies the fraction of the number of outer cellulose polymers which have defects.]
+
 15.) r_monomer: Radius around which each bond location is checked for neighbors. To be kept at 0.6 [Fixed for now. No need to vary]
+
 
 ## Running the customized code
 

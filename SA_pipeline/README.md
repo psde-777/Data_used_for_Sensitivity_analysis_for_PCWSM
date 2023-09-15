@@ -1,4 +1,5 @@
 # README SA_pipeline
+
 ## Setup of the directory and data to be analysed
 - Create a directory in which you want to run the analysis (this will be referred to as topdir) and copy the content of this directory into topdir
 - Open topdir/latest/, and run compile.sh via the terminal command
@@ -20,10 +21,10 @@
 - You can set calc_second_order to True (the Total Sobol indices, the first Sobol indices, and the second Sobol indices will be calculated) or to False (the Total Sobol indices and the first Sobol indices will be calculated). 
 - Open the file “calc_indices.py“ and copy the parameter names and ranges from “generate_samples.py“
 
-##Running the sensitivity analysis
+## Running the sensitivity analysis
 
 The sample function creates N parameter sets with N = n*(D+2). D is the number of parameters and n is the sample size. The keyword argument calc_second_order=True will not exclude second order indieces, resulting in a larger sample matrix with N = n*(2D+2) parameter sets instead. These parameters will be used as command line arguments as well as the number of cores you have available (N_cores).
 Now, to start the algorithm, execute the shell script "evo_all.sh" via the following command:#
 
-  ./evo_all.sh n D N N_cores 1>log.out 2>log.err
+  `./evo_all.sh n D N N_cores 1>log.out 2>log.err`
 
